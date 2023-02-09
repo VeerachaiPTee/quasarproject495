@@ -22,9 +22,6 @@
             <q-menu transition-show="flip-right" transition-hide="flip-left">
               <q-list style="min-width: 100px">
                 <q-item clickable>
-                  <q-item-section>Account</q-item-section>
-                </q-item>
-                <q-item clickable>
                   <q-item-section @click="logout()">Logout</q-item-section>
                 </q-item>
                 <q-separator />
@@ -35,7 +32,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <q-drawer v-model="leftDrawerOpen" show-if-above bordered class="bg-brown-2">
       <q-list>
         <q-item-label header class="text-h6 text-center"> Menu </q-item-label>
 

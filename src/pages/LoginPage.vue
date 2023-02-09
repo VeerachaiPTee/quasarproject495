@@ -1,7 +1,7 @@
 <template>
   <q-layout>
     <q-page-container>
-      <q-page class="flex flex-center">
+      <q-page class="flex flex-center bg-teal-11">
         <div class="row items-center">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center q-pa-sm">
             <a href="/">
@@ -89,6 +89,7 @@ export default {
         username: "",
         password: "",
       },
+      
     };
   },
   methods: {
@@ -115,4 +116,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
